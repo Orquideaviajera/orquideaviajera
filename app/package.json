@@ -1,0 +1,22 @@
+{
+  "name": "orquidea-viajera-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Landing page corporativa de Orquídea Viajera — asesoría de visados para España",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue-tsc": "^2.0.19"
+  }
+}

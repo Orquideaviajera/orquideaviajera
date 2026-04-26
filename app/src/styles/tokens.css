@@ -1,0 +1,89 @@
+/* ============================================
+   ORQUÍDEA VIAJERA — DESIGN TOKENS
+   Marca: asesoría de visados para España
+   ============================================ */
+
+:root {
+  /* ---------- COLORES DE MARCA ---------- */
+  --blue: #2F5D8C;
+  --blue-deep: #0F1F33;
+  --blue-ink: #1F2D3D;
+  --sage: #A8C3B0;
+  --sage-deep: #6B8E78;
+  --sage-soft: #D9E4DC;
+  --paper: #FFFFFF;
+  --paper-warm: #F4F1EA;
+  --paper-soft: #F7F9FB;
+  --rule: #E5E1D6;
+  --text: #2A2F36;
+  --mute: #6B7785;
+  --accent: #D9C8A4;
+
+  /* ---------- TIPOGRAFÍA ---------- */
+  --font-sans: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Escala tipográfica */
+  --fs-11: 11px;
+  --fs-12: 12px;
+  --fs-13: 13px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+  --fs-16: 16px;
+  --fs-17: 17px;
+  --fs-18: 18px;
+  --fs-22: 22px;
+  --fs-28: 28px;
+
+  /* Pesos */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  /* ---------- ESPACIADO ---------- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 32px;
+  --sp-8: 40px;
+  --sp-9: 48px;
+  --sp-10: 56px;
+  --sp-11: 64px;
+  --sp-12: 80px;
+  --sp-13: 96px;
+  --sp-14: 120px;
+
+  /* ---------- RADIOS ---------- */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --radius-xl: 12px;
+  --radius-pill: 100px;
+
+  /* ---------- SOMBRAS ---------- */
+  --shadow-sm: 0 4px 12px -6px rgba(31, 67, 104, 0.08);
+  --shadow-md: 0 24px 48px -28px rgba(31, 67, 104, 0.18);
+  --shadow-lg: 0 30px 60px -32px rgba(31, 67, 104, 0.22);
+
+  /* ---------- TRANSICIONES ---------- */
+  --t-fast: 0.2s ease;
+  --t-base: 0.25s ease;
+  --t-slow: 0.4s ease;
+
+  /* ---------- LAYOUT ---------- */
+  --container: 1200px;
+  --container-narrow: 980px;
+
+  /* ---------- LETTER SPACING ---------- */
+  --ls-tight: -0.02em;
+  --ls-snug: -0.01em;
+  --ls-normal: 0;
+  --ls-wide: 0.04em;
+  --ls-wider: 0.18em;
+  --ls-widest: 0.28em;
+}
