@@ -3,6 +3,10 @@ import vue from '@vitejs/plugin-vue';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
+<<<<<<< Updated upstream
+=======
+  base: '/',
+>>>>>>> Stashed changes
   plugins: [vue()],
   resolve: {
     alias: {
